@@ -33,3 +33,29 @@ This project automates tasks related to the **El País** news website, including
   ```bash
   pip install requests beautifulsoup4 googletrans selenium
 
+---
+
+## Additional Setup
+### BrowserStack Account
+Update the script with your BrowserStack credentials:
+- `BROWSERSTACK_USERNAME`
+- `BROWSERSTACK_ACCESS_KEY`
+
+### WebDriver
+Ensure `chromedriver` is installed and accessible in your system's PATH.
+
+---
+
+## Usage
+
+### Steps to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ishita2002rai/BS-Scraping.git
+   cd BS-Scraping
+   ```
+2. Run the script:
+   ```bash
+   python scraping.py
+   ```
+   
